@@ -1,0 +1,19 @@
+{
+  "name": "node_crash_course",
+  "version": "1.0.0",
+  "description": "Node crash course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/haki9975/node_course.git"
+  },
+  "author": "Elias Robert Hakim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/haki9975/node_course/issues"
+  },
+  "homepage": "https://github.com/haki9975/node_course#readme"
+}
