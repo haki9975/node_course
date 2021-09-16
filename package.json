@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/haki9975/node_course/issues"
   },
-  "homepage": "https://github.com/haki9975/node_course#readme"
+  "homepage": "https://github.com/haki9975/node_course#readme",
+  "dependencies": {
+    "uuid": "^8.3.2"
+  }
 }
