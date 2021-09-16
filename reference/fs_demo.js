@@ -15,5 +15,14 @@ fs.writeFile(
   (err) => {
     if (err) throw err;
     console.log("file written");
+    //File append
+    fs.appendFile(
+      path.join(__dirname, "/test", "hello.txt"),
+      "I love Node.js",
+      (err) => {
+        if (err) throw err;
+        console.log("file written");
+      }
+    );
   }
 );
