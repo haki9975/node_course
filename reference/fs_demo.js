@@ -26,3 +26,9 @@ fs.writeFile(
     );
   }
 );
+
+//Read File
+fs.readFile(path.join(__dirname, "/test", "hello.txt"), "utf8", (err) => {
+  if (err) throw err;
+  console.log("file written");
+});
